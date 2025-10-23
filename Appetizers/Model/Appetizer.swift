@@ -18,7 +18,7 @@ struct Appetizer: Decodable, Identifiable{
     let imageURL: String
 }
 
-struct AppetizerResponse: Identifiable{
+struct AppetizerResponse: Decodable{
     let request: [Appetizer]
 }
 
